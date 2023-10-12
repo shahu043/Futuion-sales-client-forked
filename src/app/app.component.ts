@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'futuion-sales';
+
+  static spinner = false;
+
+  get showSpinner() {
+    return AppComponent.spinner;
+  }
 }
