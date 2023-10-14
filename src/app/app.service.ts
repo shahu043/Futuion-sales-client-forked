@@ -87,11 +87,9 @@ export class AppService {
 
     return dte;
   }
-
   // toggleDialog(content: string, header: string = 'Value') {
   //   LandingPageComponent.dialog.visible = !LandingPageComponent.dialog.visible;
   //   LandingPageComponent.dialog.content = content;
   //   LandingPageComponent.dialog.header = header;
   // }
-
 }
